@@ -4,7 +4,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   padding: 1.5rem;
-  border: 2px solid #e0354b;
+  border: 2px dashed #e0354b;
 }
 
 [data-priority="default"] {
