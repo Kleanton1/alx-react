@@ -27,16 +27,16 @@ class App extends PureComponent {
     ]
 
     return (
+      <React.Fragment>
       <div className="App">
+        <div className="heading-section">
         <Notifications listNotifications={listNotifications} />
         <Header />
-        <div className="App-body">
-          {this.isLoggedIn ? <CourseList listCourses={listCourses} /> : <Login />}
         </div>
-        <div className="App-footer">
+        {this.props.isLoggedIn ? <CourseList listCourses={this.listCourses} /> : <Login />}
           <Footer />
         </div>
-      </div>
+        </React.Fragment>
     )
   }
 }
