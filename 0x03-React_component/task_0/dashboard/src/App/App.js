@@ -49,4 +49,4 @@ App.propTypes = {
   isLoggedIn: propTypes.bool,
 }
 
-export default App
+export default App;
