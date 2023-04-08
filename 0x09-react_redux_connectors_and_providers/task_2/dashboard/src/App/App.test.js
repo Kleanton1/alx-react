@@ -30,4 +30,4 @@ describe("<App />", () => {
 
     expect(result).toEqual({ displayDrawer: true });
   });
-}); 
+});
