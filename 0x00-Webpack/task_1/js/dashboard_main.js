@@ -15,3 +15,4 @@ function updateCounter() {
 	count++;
 	$('#count').text('${count} clicks on the button');
 }
+
